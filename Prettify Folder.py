@@ -16,3 +16,4 @@ def soldier(path, exceptFile, ext):
 
 
 soldier("D:\\snak","a.txt", ".ico")
+
