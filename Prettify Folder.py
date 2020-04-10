@@ -15,4 +15,4 @@ def soldier(path, exceptFile, ext):
                 i += 1
 
 
-soldier("D:\snak","a.txt", ".ico")
+soldier("D:\\snak","a.txt", ".ico")
