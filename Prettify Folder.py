@@ -48,7 +48,7 @@ if __name__ == '__main__':
         print("Wrong input")
         exit()
     print(
-        "# If you want to ignore some files, add name of those files in pfavd.txt \n# in the same folder in which files to be renamed are present.\n")
+        "# If you want to ignore some files, add name of those files in pfavd.txt in the same\n# folder in which files to be renamed are present. For now wildcards can't be used.\n")
     print("Input the path of the folder that contains the files to be renamed")
     path = input()
 
