@@ -25,6 +25,7 @@ def capital(files, avoid):
             else:
                 print(f"{file} capitalized")
 
+
 def arrange_by_extension(files):
     # Using list comprehension to get a list of extionsions of all files and saving them into a set to avoid repetitive values
     ext_set = set([os.path.splitext(file)[1] for file in files])
@@ -44,7 +45,7 @@ def arrange_by_extension(files):
 if __name__ == '__main__':
     print("1. Batch Rename\n2. Capitalize I letter")
     userChoice = input()
-    if userChoice not in ["1","2"]:
+    if userChoice not in ["1", "2"]:
         print("Wrong input")
         exit()
     print(
@@ -62,7 +63,6 @@ if __name__ == '__main__':
     except:
         print("No file ignored")
     avoid.append("pfavd.txt")
-
 
     if userChoice == "1":
         start = int(input("Enter a number from which renaming counter will start : "))
